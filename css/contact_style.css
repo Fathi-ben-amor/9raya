@@ -1,0 +1,145 @@
+body{
+    background: #25274d;
+}
+
+#big-contact{
+position: absolute;
+border: solid #25274d;
+height: 100%;
+margin-top: 4%;
+margin-bottom: 4%;
+width: 80%;
+margin-right: 10%;
+margin-left: 10%;
+border-radius: 20px;
+}
+
+#big-contact .left-con{
+background-color:#ff9b00;
+height: 100%; 
+width: 25%;
+border-radius:15px 0 0 15px ;
+margin-top: -2.5%;
+padding-left: 10px;
+}
+
+.msg {
+    margin-top:10%;
+    margin-bottom: 10%;
+    padding-left: 45px;
+    padding-top: 55px;
+
+}
+
+#big-contact .left-con h2{
+    padding-left: 45px;
+    padding-top: 0;
+    color:rgb(34, 34, 37);
+    font-weight: bold;
+    font-size: 35px;
+
+}
+#big-contact .left-con h4{
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-right: 50px;
+    color:rgb(34, 34, 37);
+    
+    font-size: 25px;
+text-decoration: justify;
+}
+
+.btn-retour{
+    color:#fff;
+    padding-left: 45px;
+}
+  .btn-retour :hover{
+    color:#25274d;
+}
+
+
+/*Riiiggghhhhtttt*/
+
+#big-contact .right-con{
+background-color:rgb(255, 255, 255);
+height: 100%;
+width: 75%;
+margin-left:25% ;
+border-radius: 0px 15px 15px 0; 
+margin-top: -57.9%;
+}
+
+.form-msg{
+    padding-left: 45px;;
+    
+    padding-top: 10px;
+}
+
+.form-msg form p{
+    padding-bottom: 0;
+    padding-top: -10px;
+    font-size: 25px;
+}
+
+.form-msg form input{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: -29px;
+    margin-bottom: 0;
+    font-size: 15px;  
+}
+
+.form-msg form textarea{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: -20px;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: rgb(34, 34, 37);
+}
+
+.bor-bot{
+    padding-bottom: 45px;
+    padding-top: 25px;  
+    background:  #25274d ;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid thin #25274d ;
+}
+
+.form-msg form input.bor-bot{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: center;
+    font-weight: lighter;
+}
+i  :hover{
+    background:  #00055c ;  
+}
+h3 :hover{
+    color: #ff9b00;
+}
+/*Succeeeeees*/
+
+.success-bordure{
+    border-radius: 15px;
+    width:700px;
+    height: 80px;
+    border: solid thin #f5f5fcc7;
+    background:#fff;
+    color: #25274d;
+    font-size: 50px;
+    margin-top: -550px;
+    margin-left: 400px;
+    padding: 30px;
+    text-align: right;
+}
+.success-bordure :hover{
+    color: #25274d;
+    
+}
+.btn-retour2{
+    color:#25274d;
+    padding-left: 45px;
+}

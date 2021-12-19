@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    background : #181818 ; 
+    margin: 0 ; 
+    padding:0 ; 
+    font-family:'Roboto', sans-serif;
+   
+    font-weight:500 ; 
+    color:white ; 
+}
+#all {
+    display:flex ; 
+    flex-direction :row ; 
+}
+.title {
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+    color:  rgb(243, 113, 7) ;
+    padding-top: 4rem;
+}
+#left{
+    display: flex ; 
+    flex-direction: column;
+    flex:1; 
+    align-items:center ;
+    justify-content: center;
+    height: 100vh ; 
+}
+#formulaire {
+    display:flex ; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width:80% ; 
+    margin: 3rem; 
+   
+ 
+}
+#formulaire .input-text {
+    border-radius:2px ; 
+    border:1px solid #555 ; 
+    background: #181818;
+    margin-bottom: 1rem;
+    line-height: 1.3rem;
+    color: #ccc ;
+    width:80% ; 
+}
+form {
+    width: 80%;
+    padding-bottom: 2rem;
+}
+#formulaire label {
+    font-size: 0.9rem;
+    line-height:2rem ;
+    font-weight:500 ; 
+}
+#right{
+    display: flex ;
+    flex-direction:column ; 
+    text-align:center ; 
+    justify-content: center;
+    align-items: center;
+    flex:2 ; 
+    background: url(a.jpg) no-repeat center center / cover;
+}
+#right .p {
+    font-size: 2rem;
+    font-family:'Architects Daughter', cursive ;
+    padding:3rem ; 
+    margin-bottom:5rem ;
+}
+#right .p1 {
+    font-size:4rem ; 
+    font-family:'Architects Daughter', cursive; 
+    color: rgb(243, 113, 7) ;
+    margin-bottom: 12rem;
+   
+}
+.btn {
+    padding: 0.7rem 1rem ; 
+    height: 2.7rem ; 
+    display:block ;
+    border:0 ; 
+    border-radius:2px ; 
+    font-weight: 500;
+    background:#f96816 ; 
+    color:#fff ; 
+    text-decoration:none ; 
+    cursor: pointer ; 
+    text-align: center;
+    transition:all 0.5s ; 
+}
+.btn:hover {
+    background: #ff7b39 ;
+}
